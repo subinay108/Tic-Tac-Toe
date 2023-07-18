@@ -136,7 +136,7 @@ class Board{
         this.data[0][0] === this.data[0][2]){ // row 1
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(23.5, 46, 254, 5);
+            ctx.fillRect(13.5, 46, 274, 5);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
@@ -146,7 +146,7 @@ class Board{
         this.data[1][0] === this.data[1][2]){ // row 2
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(23.5, 148, 254, 5);
+            ctx.fillRect(13.5, 148, 274, 5);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
@@ -156,7 +156,7 @@ class Board{
         this.data[2][0] === this.data[2][2]){ // row 3
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(23.5, 250, 254, 5);
+            ctx.fillRect(13.5, 250, 274, 5);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
@@ -166,7 +166,7 @@ class Board{
         this.data[0][0] === this.data[2][0]){ // col 1
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(46, 23.5, 5, 254);
+            ctx.fillRect(46, 13.5, 5, 274);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
@@ -176,7 +176,7 @@ class Board{
         this.data[0][1] === this.data[2][1]){ // col 2
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(148, 23.5, 5, 254);
+            ctx.fillRect(148, 13.5, 5, 274);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
@@ -186,7 +186,7 @@ class Board{
         this.data[0][2] === this.data[2][2]){ // col 3
             isGameOver = true;
             ctx.beginPath();
-            ctx.fillRect(250, 23.5, 5, 254);
+            ctx.fillRect(250, 13.5, 5, 274);
             winBanner.innerHTML = `<p>${this.turn.toUpperCase()} Wins</p>`;
             winBanner.style.opacity = '1.0';
             console.log(`${this.turn} wins`);
